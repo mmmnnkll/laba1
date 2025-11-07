@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Bookstore>
+  <Authors>
+    <Author id="1">
+      <Name>Александр Пушкин</Name>
+    </Author>
+    <Author id="2">
+      <Name>Лев Толстой</Name>
+    </Author>
+    <Author id="3">
+      <Name>Федор Достоевский</Name>
+    </Author>
+    <Author id="4">
+      <Name>Антон Чехов</Name>
+    </Author>
+    <Author id="5">
+      <Name>Николай Гоголь</Name>
+    </Author>
+  </Authors>
+  <Genres>
+    <Genre id="1">
+      <Name>Русская классика</Name>
+    </Genre>
+    <Genre id="2">
+      <Name>Роман</Name>
+    </Genre>
+    <Genre id="3">
+      <Name>Поэзия</Name>
+    </Genre>
+    <Genre id="4">
+      <Name>Драма</Name>
+    </Genre>
+    <Genre id="5">
+      <Name>Повесть</Name>
+    </Genre>
+  </Genres>
+  <Publishers>
+    <Publisher id="1">
+      <Name>Эксмо</Name>
+    </Publisher>
+    <Publisher id="2">
+      <Name>АСТ</Name>
+    </Publisher>
+    <Publisher id="3">
+      <Name>Росмэн</Name>
+    </Publisher>
+    <Publisher id="4">
+      <Name>Дрофа</Name>
+    </Publisher>
+    <Publisher id="5">
+      <Name>Просвещение</Name>
+    </Publisher>
+  </Publishers>
+  <Books>
+    <Book isbn="978-5-699-12014-7">
+      <Title>Евгений Онегин</Title>
+      <AuthorId>1</AuthorId>
+      <GenreId>3</GenreId>
+      <PublisherId>1</PublisherId>
+      <Price>350.0</Price>
+      <Stock>15</Stock>
+    </Book>
+    <Book isbn="978-5-17-090675-5">
+      <Title>Война и мир</Title>
+      <AuthorId>2</AuthorId>
+      <GenreId>2</GenreId>
+      <PublisherId>2</PublisherId>
+      <Price>1200.0</Price>
+      <Stock>8</Stock>
+    </Book>
+    <Book isbn="978-5-389-06256-5">
+      <Title>Преступление и наказание</Title>
+      <AuthorId>3</AuthorId>
+      <GenreId>2</GenreId>
+      <PublisherId>3</PublisherId>
+      <Price>450.0</Price>
+      <Stock>12</Stock>
+    </Book>
+    <Book isbn="978-5-04-094019-5">
+      <Title>Вишневый сад</Title>
+      <AuthorId>4</AuthorId>
+      <GenreId>4</GenreId>
+      <PublisherId>4</PublisherId>
+      <Price>280.0</Price>
+      <Stock>20</Stock>
+    </Book>
+    <Book isbn="978-5-08-005895-5">
+      <Title>Мертвые души</Title>
+      <AuthorId>5</AuthorId>
+      <GenreId>5</GenreId>
+      <PublisherId>5</PublisherId>
+      <Price>390.0</Price>
+      <Stock>10</Stock>
+    </Book>
+    <Book isbn="978-5-17-077807-1">
+      <Title>Капитанская дочка</Title>
+      <AuthorId>1</AuthorId>
+      <GenreId>5</GenreId>
+      <PublisherId>2</PublisherId>
+      <Price>320.0</Price>
+      <Stock>18</Stock>
+    </Book>
+    <Book isbn="978-5-04-103758-0">
+      <Title>Анна Каренина</Title>
+      <AuthorId>2</AuthorId>
+      <GenreId>2</GenreId>
+      <PublisherId>1</PublisherId>
+      <Price>680.0</Price>
+      <Stock>7</Stock>
+    </Book>
+  </Books>
+  <Customers>
+    <Customer id="1">
+      <Name>Иван Петров</Name>
+      <Email>ivan.petrov@mail.ru</Email>
+    </Customer>
+    <Customer id="2">
+      <Name>Мария Сидорова</Name>
+      <Email>maria.sidorova@gmail.com</Email>
+    </Customer>
+    <Customer id="3">
+      <Name>Сергей Иванов</Name>
+      <Email>sergey.ivanov@yandex.ru</Email>
+    </Customer>
+    <Customer id="4">
+      <Name>Елена Кузнецова</Name>
+      <Email>elena.kuznetsova@inbox.ru</Email>
+    </Customer>
+    <Customer id="5">
+      <Name>Алексей Смирнов</Name>
+      <Email>alexey.smirnov@list.ru</Email>
+    </Customer>
+    <Customer id="6">
+      <Name>Дарья</Name>
+      <Email>orlovadaria18@mail.ru</Email>
+    </Customer>
+  </Customers>
+  <Orders>
+    <Order id="1">
+      <CustomerId>1</CustomerId>
+      <Items>
+        <Item>
+          <BookIsbn>978-5-699-12014-7</BookIsbn>
+          <Quantity>2</Quantity>
+        </Item>
+        <Item>
+          <BookIsbn>978-5-389-06256-5</BookIsbn>
+          <Quantity>1</Quantity>
+        </Item>
+      </Items>
+    </Order>
+    <Order id="2">
+      <CustomerId>2</CustomerId>
+      <Items>
+        <Item>
+          <BookIsbn>978-5-17-090675-5</BookIsbn>
+          <Quantity>1</Quantity>
+        </Item>
+      </Items>
+    </Order>
+    <Order id="3">
+      <CustomerId>3</CustomerId>
+      <Items>
+        <Item>
+          <BookIsbn>978-5-04-094019-5</BookIsbn>
+          <Quantity>3</Quantity>
+        </Item>
+        <Item>
+          <BookIsbn>978-5-08-005895-5</BookIsbn>
+          <Quantity>2</Quantity>
+        </Item>
+      </Items>
+    </Order>
+    <Order id="4">
+      <CustomerId>4</CustomerId>
+      <Items>
+        <Item>
+          <BookIsbn>978-5-17-077807-1</BookIsbn>
+          <Quantity>1</Quantity>
+        </Item>
+        <Item>
+          <BookIsbn>978-5-04-103758-0</BookIsbn>
+          <Quantity>1</Quantity>
+        </Item>
+        <Item>
+          <BookIsbn>978-5-699-12014-7</BookIsbn>
+          <Quantity>2</Quantity>
+        </Item>
+      </Items>
+    </Order>
+  </Orders>
+</Bookstore>
