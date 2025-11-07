@@ -1,0 +1,223 @@
+{
+  "authors": [
+    {
+      "author_id": 1,
+      "name": "Александр Пушкин"
+    },
+    {
+      "author_id": 2,
+      "name": "Лев Толстой"
+    },
+    {
+      "author_id": 3,
+      "name": "Федор Достоевский"
+    },
+    {
+      "author_id": 4,
+      "name": "Антон Чехов"
+    },
+    {
+      "author_id": 5,
+      "name": "Николай Гоголь"
+    }
+  ],
+  "genres": [
+    {
+      "genre_id": 1,
+      "name": "Русская классика"
+    },
+    {
+      "genre_id": 2,
+      "name": "Роман"
+    },
+    {
+      "genre_id": 3,
+      "name": "Поэзия"
+    },
+    {
+      "genre_id": 4,
+      "name": "Драма"
+    },
+    {
+      "genre_id": 5,
+      "name": "Повесть"
+    }
+  ],
+  "publishers": [
+    {
+      "publisher_id": 1,
+      "name": "Эксмо"
+    },
+    {
+      "publisher_id": 2,
+      "name": "АСТ"
+    },
+    {
+      "publisher_id": 3,
+      "name": "Росмэн"
+    },
+    {
+      "publisher_id": 4,
+      "name": "Дрофа"
+    },
+    {
+      "publisher_id": 5,
+      "name": "Просвещение"
+    }
+  ],
+  "books": [
+    {
+      "isbn": "978-5-699-12014-7",
+      "title": "Евгений Онегин",
+      "author_id": 1,
+      "genre_id": 3,
+      "publisher_id": 1,
+      "price": 350.0,
+      "stock": 15
+    },
+    {
+      "isbn": "978-5-17-090675-5",
+      "title": "Война и мир",
+      "author_id": 2,
+      "genre_id": 2,
+      "publisher_id": 2,
+      "price": 1200.0,
+      "stock": 8
+    },
+    {
+      "isbn": "978-5-389-06256-5",
+      "title": "Преступление и наказание",
+      "author_id": 3,
+      "genre_id": 2,
+      "publisher_id": 3,
+      "price": 450.0,
+      "stock": 12
+    },
+    {
+      "isbn": "978-5-04-094019-5",
+      "title": "Вишневый сад",
+      "author_id": 4,
+      "genre_id": 4,
+      "publisher_id": 4,
+      "price": 280.0,
+      "stock": 20
+    },
+    {
+      "isbn": "978-5-08-005895-5",
+      "title": "Мертвые души",
+      "author_id": 5,
+      "genre_id": 5,
+      "publisher_id": 5,
+      "price": 390.0,
+      "stock": 10
+    },
+    {
+      "isbn": "978-5-17-077807-1",
+      "title": "Капитанская дочка",
+      "author_id": 1,
+      "genre_id": 5,
+      "publisher_id": 2,
+      "price": 320.0,
+      "stock": 18
+    },
+    {
+      "isbn": "978-5-04-103758-0",
+      "title": "Анна Каренина",
+      "author_id": 2,
+      "genre_id": 2,
+      "publisher_id": 1,
+      "price": 680.0,
+      "stock": 7
+    }
+  ],
+  "customers": [
+    {
+      "customer_id": 1,
+      "name": "Иван Петров",
+      "email": "ivan.petrov@mail.ru"
+    },
+    {
+      "customer_id": 2,
+      "name": "Мария Сидорова",
+      "email": "maria.sidorova@gmail.com"
+    },
+    {
+      "customer_id": 3,
+      "name": "Сергей Иванов",
+      "email": "sergey.ivanov@yandex.ru"
+    },
+    {
+      "customer_id": 4,
+      "name": "Елена Кузнецова",
+      "email": "elena.kuznetsova@inbox.ru"
+    },
+    {
+      "customer_id": 5,
+      "name": "Алексей Смирнов",
+      "email": "alexey.smirnov@list.ru"
+    },
+    {
+      "customer_id": 6,
+      "name": "Дарья",
+      "email": "orlovadaria18@mail.ru"
+    }
+  ],
+  "orders": [
+    {
+      "order_id": 1,
+      "customer_id": 1,
+      "items": [
+        {
+          "book_isbn": "978-5-699-12014-7",
+          "quantity": 2
+        },
+        {
+          "book_isbn": "978-5-389-06256-5",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "order_id": 2,
+      "customer_id": 2,
+      "items": [
+        {
+          "book_isbn": "978-5-17-090675-5",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "order_id": 3,
+      "customer_id": 3,
+      "items": [
+        {
+          "book_isbn": "978-5-04-094019-5",
+          "quantity": 3
+        },
+        {
+          "book_isbn": "978-5-08-005895-5",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "order_id": 4,
+      "customer_id": 4,
+      "items": [
+        {
+          "book_isbn": "978-5-17-077807-1",
+          "quantity": 1
+        },
+        {
+          "book_isbn": "978-5-04-103758-0",
+          "quantity": 1
+        },
+        {
+          "book_isbn": "978-5-699-12014-7",
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}
